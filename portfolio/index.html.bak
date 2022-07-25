@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Portfolio</title>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/6dbad567a3.js" crossorigin="anonymous"></script>
+</head>
+<body >
+<!--homepage 1st page-->
+
+ <div class="main">
+   <ul>
+     <li><a href="#"><b>Home</b></a></li>
+	 <li><a href="#section2"><b>About</b></a></li>
+	 <li><a href="#section3"><b>services</b></a></li>
+	 <li><a href="#section4"><b>contact</b></a></li>
+   </ul>
+   <div class="first">
+    <div class="row">
+	 <div class="col-sm-6 dev">
+	  
+	  <h1>Priyanka Thakur</h1>
+	  <p>I'm passinate <ins>Web developer</ins></p>
+	   <div class="social">
+	     <a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin fa-2x"></i></a>&nbsp &nbsp
+	     <a href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-2x"></i></a>&nbsp &nbsp
+	     <a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram-square fa-2x"></i></a>&nbsp &nbsp
+	     <a href="https://www.snapchat.com/"><i class="fab fa-snapchat-square fa-2x"></i></a>
+	   </div>
+     </div>
+	 <div class="col-sm-6 pic">
+	  <img src="C:\Users\user\Desktop\portfolio\pictures\p2.avif" height="80%;">
+	 </div>
+	</div>
+    
+   </div>
+ </div>
+ 
+ <!--aboutpage 2nd page-->
+ <div class="about" id="section2">
+    <h1>About Me</h1>
+   <div class="second">
+    <div class="row">
+	 <div class="col-sm-4">
+	 <img src="C:\Users\user\Desktop\portfolio\pictures\p3.avif" height="80%;">
+	 </div>
+	 <div class="col-sm-8 info">
+	  <br><h2>UI/UX Web Developer</h2><br>
+	  <p> Hello! <br>
+	     I'm <b>Priyanka</b>,an Indian based web developer focused on crafting clean 
+	     and userfriendly experience and I am passinate about building technologies that 
+		 improves lives around me with a ken eye for creating,engaging the UI/UX  and bringing 
+		 products to life.
+		 <p>I draw my inspiration from madness of daily life,contemporory topics and 
+		 everlasting love for nature.Have an exciting project where you need some help? 
+		 send me over message.</p>  
+	  </p>
+	    
+		<div class="row bio">
+		  <div class="col-sm-6 one">
+		    <ul>
+			  &nbsp<li>Birthday:17th march 1992</li>
+			  &nbsp<li>Phone:+91 69923067</li>
+			  &nbsp<li>City:Nanded,Maharashtra</li>
+			  &nbsp<li>Native:Latur</li>
+			</ul>
+		  </div>
+		   <div class="col-sm-6 two">
+		     <ul>
+			  &nbsp<li>Age:29</li>
+			  &nbsp<li>Degree:Batchelor in Engineering</li>
+			  &nbsp<li>Email-id:priyankathakur9922@gmail.com</li>
+			  &nbsp<li>freelancer:available</li>
+			</ul>
+		   </div>
+		</div>	
+	 </div>
+	</div>
+   </div>
+    
+ </div>
+ <!--my skills page
+  <div class="skills">
+   
+    <h1>My Skills</h1>&nbsp
+	<div class="container-fluid">
+  <p></p>
+	   <div class="container">
+	  <div class="progress">
+	   <h6>HTML</h6>&nbsp &nbsp &nbsp
+        <div class="progress-bar bg-info" style="width:100%">100%</div>
+      </div> <br>
+	  	  <div class="progress">
+	   <h6>CSS</h6>&nbsp &nbsp &nbsp
+        <div class="progress-bar bg-info" style="width:90%">90%</div>
+      </div> <br>
+	  	  <div class="progress">
+	   <h6>JAVASCRIPT</h6>&nbsp &nbsp &nbsp
+        <div class="progress-bar bg-info" style="width:75%">75%</div>
+      </div><br>
+	  <div class="progress">
+	   <h6>PHP</h6>&nbsp &nbsp &nbsp
+        <div class="progress-bar bg-info" style="width:60%">60%</div>
+      </div><br>
+	  <div class="progress">
+	   <h6>WORDPRESS</h6>&nbsp &nbsp &nbsp
+        <div class="progress-bar bg-info" style="width:80%">80%</div>
+      </div><br>
+	  <div class="progress">
+	   <h6>PHOTOSHOP</h6>&nbsp &nbsp &nbsp
+        <div class="progress-bar bg-info" style="width:55%">55%</div>
+      </div><br>
+	</div>
+	</div>
+  </div > -->
+ <!--animated skills page-->
+ <div class="skills">
+   <h1>My Skills</h1>&nbsp
+ <div class="skills-bar">
+  <div class="bar">
+    <div class="inf">
+	  <span>HTML</span>
+	</div>
+	<div class="progress-line html"><span></span></div>
+  </div>
+  <div class="bar">
+    <div class="inf">
+	  <span>CSS</span>
+	</div>
+	<div class="progress-line css"><span></span></div>
+  </div>
+  <div class="bar">
+    <div class="inf">
+	  <span>JAVASCRIPT</span>
+	</div>
+	<div class="progress-line javascript"><span></span></div>
+  </div>
+  <div class="bar">
+    <div class="inf">
+	  <span>PHP</span>
+	</div>
+	<div class="progress-line php"><span></span></div>
+  </div>
+  <div class="bar">
+    <div class="inf">
+	  <span>WORDPRESS</span>
+	</div>
+	<div class="progress-line wordpress"><span></span></div>
+  </div>
+  <div class="bar">
+    <div class="inf">
+	  <span>PHOTOSHOP</span>
+	</div>
+	<div class="progress-line photoshop"><span></span></div>
+  </div>
+ </div>
+ </div>
+ <!--services 3rd page -->
+ 
+ <div class="services" id="section3">
+    <h1>My Services</h1>&nbsp
+	<div class="container-fluid serv">
+	 <div class="row">
+    <div class="col-sm-4" style="background-color:white;"><br>
+	    <i class="fa-solid fa-window-restore fa-lg"></i><br><br>Website Development</div>
+	 
+    <div class="col-sm-4" style="background-color:#388E8E;"><br>
+	    <i class="fas fa-marker fa-lg"></i><br><br>Website Design and Re-design</div>
+    <div class="col-sm-4" style="background-color:white;"><br>
+	    <i class="fa-solid fa-sack-dollar fa-lg"></i><br><br>Ecommerce Development</div>
+    
+  </div>
+	 <div class="row">
+	 <div class="col-sm-4" style="background-color:#388E8E;"><br>
+	 <i class="fas fa-pencil-ruler fa-lg"></i><br><br>Responsive Design</div>
+	 <div class="col-sm-4" style="background-color:white;"><br>
+	 <i class="fas fa-wifi fa-lg"></i><br><br>Internet Development</div>
+	 <div class="col-sm-4" style="background-color:#388E8E;"><br>
+	 <i class="fa-solid fa-circle-nodes fa-lg"></i><br><br>Database<br>Connectivity</div>
+	 </div>
+	</div> 
+ </div>
+ 
+ <!--testimonial 4th page -->
+  <div class="testimonial">
+    <h1>What People say about me</h1>&nbsp
+	<div class="container test">
+    <div class="row">
+	  <div class="col-md-12">
+	    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          </ol>
+		  <div class="carousel-inner">
+           <div class="carousel-item active">
+		    <div class="row">
+			  <div class="col-md-4">
+			    <div class="single-box">
+				 <div class="img-area"><img src="pictures\kukku.jpg" alt=""></div>
+				  <div class="img-text">
+				   <h2>Karan singh</h2>
+				   <p>It's a wonderful experience while working with,
+				   delivered a beautiful,user-friendly website.  </p>
+				  
+				
+			  </div>
+			</div>
+		   </div>
+	      
+		  
+			  <div class="col-md-4">
+			    <div class="single-box">
+				 <div class="img-area"><img src="pictures\sojane.jpg" alt=""></div>
+				  <div class="img-text">
+				   <h2>Ankita Mahajan</h2> 
+				   <p>Can't avoid working again with a tech-guy with amazingly 
+				   out of the box ideas.</p>
+				 
+				
+			  </div>
+			</div>
+		   </div>
+	     
+		  
+			  <div class="col-md-4">
+			    <div class="single-box">
+				 <div class="img-area"><img src="pictures\mitthu.jpg" alt=""></div>
+				  <div class="img-text">
+				   <h2>krishnakumar</h2>
+				   <p>good work and  fully satisfied with my expectations,
+				   really helping me.</p>
+				  
+				
+			  </div>
+			</div>
+		   </div>
+	      
+		</div>
+	  </div>
+	  <!--4th,5th,6th slider-->
+	  <div class="carousel-item">
+		    <div class="row">
+			  <div class="col-md-4">
+			    <div class="single-box">
+				 <div class="img-area"><img src="pictures\savita.jpg" alt=""></div>
+				  <div class="img-text">
+				   <h2>Savita Pawar</h2>
+				   <p> A Terrific masterpiece hand down to make my work smooth. </p>
+			  </div>
+			</div>
+		   </div>
+	      
+		  
+			  <div class="col-md-4">
+			    <div class="single-box">
+				 <div class="img-area"><img src="pictures\birju.jpg" alt=""></div>
+				  <div class="img-text">
+				   <h2>Birju Thakur</h2>
+				   <p>She give me reason to sit infront of the screen to work in a click.</p>
+				 
+				
+			  </div>
+			</div>
+		   </div>
+	     
+		  
+			  <div class="col-md-4">
+			    <div class="single-box">
+				 <div class="img-area"><img src="pictures\chandani.jpg" alt=""></div>
+				  <div class="img-text">
+				   <h2>Chandani Chauhan</h2>
+				   <p>Very happy to get my website on time.</p>
+				  
+				
+			  </div>
+			</div>
+		   </div>
+	      
+		</div>
+	  </div>
+	  <!--end of slider-->
+	</div>
+   </div>
+  </div>
+  </div>
+   </div>
+  </div>
+ 
+ <!--contact me 5thpage-->
+   
+   <div class="contact" id="section4">
+    <h1>Contact To Me</h1>&nbsp
+    
+	 <div class="container">
+	  <div class="row">
+	   <div class="col-sm-6 addr">
+	  <i class="fas fa-home-alt fa-lg"></i>
+	    <h4>Address</h4>
+		 <p> Ambika Nivas,Ravinagar Housing Society,
+		 <br>Juna Kautha ,Nanded-431603.</p>
+		  <div class="icon"><i class="fas fa-phone-alt fa-lg"></i></div>
+		  <h4>Phone</h4>
+		 <p>+91 7276419161</p>
+		 <i class="fas fa-envelope fa-lg"></i>
+		  <h4>Email</h4>
+		 <p>priyankathakur9922@gmail.com</p>
+	   </div>
+	   <div class="col-sm-6 form">
+	    <form action="/action_page.php">
+		 <h2>Send Message</h2>
+	     <div class="form-group">
+          <label for="usr"> Your Name</label>
+            <input type="text" class="form-control" placeholder="Your Name" id="usr">
+         </div>
+         <div class="form-group">
+          <label for="email">Your Email</label>
+            <input type="email" class="form-control" placeholder="Enter email" id="email">
+         </div>
+  
+        <div class="form-group">
+         <label for="comment">Your Message</label>
+           <textarea class="form-control" rows="5" id="comment"></textarea>
+        </div>
+         <button type="submit" class="btn btn-success send">Send </button>
+        </form>
+	   </div>
+	  </div>
+	 </div>
+   </div>
+
+ </body>
+</html>
